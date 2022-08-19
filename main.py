@@ -84,31 +84,31 @@ def valentine(app, msg):
 	''')
 	sleep(1)
 	app.send_message(msg.chat.id, f'''
-	выебал
+	</b>выебал</b>
 	''')
 	sleep(1)
 	app.send_message(msg.chat.id, f'''
-	твою
+	</b>твою</b>
 	''')
 	sleep(1)
 	app.send_message(msg.chat.id, f'''
-	маму
+	</b>маму</b>
 	''')
 	sleep(1)
 	app.send_message(msg.chat.id, f'''
-	сын
+	</b>сын</b>
 	''')
 	sleep(1)
 	app.send_message(msg.chat.id, f'''
-	свиноматки
+	</b>свиноматки</b>
 	''')
 	sleep(1)
 	app.send_message(msg.chat.id, f'''
-	ебливой
+	</b>ебливой</b>
 	''')
 	sleep(1)
 	app.send_message(msg.chat.id, f'''
-	терпишь мой нон-стоп
+	</b>терпишь мой нон-стоп</b>
 	''')
 
 	sleep(0.2)
