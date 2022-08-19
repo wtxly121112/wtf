@@ -38,41 +38,41 @@ def type(_, msg):
 			sleep(e.x)
 
  # Шаблон текста в строчки
-@app.on_message(filters.command("yaebalsya", prefixes=".") & filters.me)
+@app.on_message(filters.command("zxc", prefixes=".") & filters.me)
 def valentine(app, msg):
 	app.send_message(msg.chat.id, f'''
-	<b>Я ебался лишь однажды</b>
+	<b>кидаю step, лечу прям вверх</b>
 	''')
 	sleep(1)
 	app.send_message(msg.chat.id, f'''
-	<b>Где и как,зачем и с кем</b>
+	<b>мой красный сет убил их всех</b>
 	''')
 	sleep(1)
 	app.send_message(msg.chat.id, f'''
-	<b>Не помню я,да и не важно</b>
+	<b>у них в башке один preset</b>
 	''')
 	sleep(1)
 	app.send_message(msg.chat.id, f'''
-	<b>Я был очень пьян в тот день</b>
+	<b>я покажу тоннельный свет</b>
 	''')
 	sleep(1)
 	app.send_message(msg.chat.id, f'''
-	<b>И не важен пол и возраст</b>
+	<b>им не найти меня, я скрылся</b>
 	''')
 	sleep(1)
 	app.send_message(msg.chat.id, f'''
-	<b>Имя,цвет волос и глаз</b>
+	<b>я пропавший в dissmilate</b>
 	''')
 	sleep(1)
 	app.send_message(msg.chat.id, f'''
-	<b>Да,я пидорас,возможно</b>
+	<b>я не оставлю им и следа</b>
 	''')
 	sleep(1)
 	app.send_message(msg.chat.id, f'''
-	<b>Но ведь это был лишь раз</b>
+	<b>из ниоткуда выйду в late</b>
 	''')
 
-	sleep(0.5)
+	sleep(0.2)
 	global number
 	number = number + 1
 	
