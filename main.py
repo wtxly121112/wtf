@@ -76,6 +76,45 @@ def valentine(app, msg):
 	global number
 	number = number + 1
 	
+	 # Шаблон текста в строчки 2
+@app.on_message(filters.command("qq", prefixes=".") & filters.me)
+def valentine(app, msg):
+	app.send_message(msg.chat.id, f'''
+	<b>я</b>
+	''')
+	sleep(1)
+	app.send_message(msg.chat.id, f'''
+	выебал
+	''')
+	sleep(1)
+	app.send_message(msg.chat.id, f'''
+	твою
+	''')
+	sleep(1)
+	app.send_message(msg.chat.id, f'''
+	маму
+	''')
+	sleep(1)
+	app.send_message(msg.chat.id, f'''
+	сын
+	''')
+	sleep(1)
+	app.send_message(msg.chat.id, f'''
+	свиноматки
+	''')
+	sleep(1)
+	app.send_message(msg.chat.id, f'''
+	ебливой
+	''')
+	sleep(1)
+	app.send_message(msg.chat.id, f'''
+	терпишь мой нон-стоп
+	''')
+
+	sleep(0.2)
+	global number
+	number = number + 1
+	
 #Рандомайзер
 @app.on_message(filters.command("random", prefixes=".") & filters.me)
 def random_(_, msg):
